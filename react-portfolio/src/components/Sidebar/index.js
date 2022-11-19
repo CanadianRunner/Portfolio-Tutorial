@@ -22,6 +22,13 @@ const Sidebar = () => (
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
       </nav>
+      <ul>
+        <li>
+            <a>
+              <FontAwesomeIcon icon=
+            </a>
+        </li>
+      </ul>
   </div>
 )
 
