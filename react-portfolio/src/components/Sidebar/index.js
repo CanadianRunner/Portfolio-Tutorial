@@ -3,7 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
   <div className='nav-bar'>
@@ -24,12 +25,12 @@ const Sidebar = () => (
       </nav>
       <ul>
         <li>
-            <a>
-              <FontAwesomeIcon icon=
+            <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/sean-keane-pdx/'>
+              <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
             </a>
         </li>
       </ul>
   </div>
-)
+);
 
 export default Sidebar;
